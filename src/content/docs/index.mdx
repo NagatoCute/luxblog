@@ -1,36 +1,57 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: 欢迎来到我的blog
+description: 使用Starlight,现在正在构建中...
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 使用Starlight,现在正在构建中...
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
+    - text: Let's GO！
       link: /guides/example/
       icon: right-arrow
-    - text: Read the Starlight docs
+    - text: 阅读 Starlight 文档
       link: https://starlight.astro.build
       icon: external
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard } from '@astrojs/starlight/components';
 
-## Next steps
-
+## 置顶文档
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>
+
+    <LinkCard title="安装archlinux" href="/stars/archinstall/"  />
+
+    </CardGrid>
+
+[//]: # (## 后续步骤)
+
+[//]: # ()
+[//]: # (<CardGrid stagger>)
+
+[//]: # (
+[//]: # (		编辑 'src/content/docs/index.mdx' 以查看此页面更改。)
+
+[//]: # (	</Card>)
+
+[//]: # (	<Card title="添加新内容" icon="add-document">)
+
+[//]: # (		将 Markdown 或 MDX 文件添加到 'src/content/docs' 以创建新页面。)
+
+[//]: # (	</Card>)
+
+[//]: # (	<Card title="配置您的网站" icon="setting">)
+
+[//]: # (		在 'astro.config.mjs' 中编辑你的 'sidebar' 和其他配置。)
+
+[//]: # (	</Card>)
+
+[//]: # (	<Card title="阅读文档" icon="open-book">)
+
+[//]: # (		在 [Starlight Docs]（https://starlight.astro.build/） 中了解更多信息。)
+
+[//]: # (	</Card>)
+
+[//]: # (</CardGrid>)
